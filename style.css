@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Indie+Flower&family=Zen+Antique+Soft&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(102, 102, 130);
+    width:15vw;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+   transition: transform 0.2s ease-in;
+}
+.sidebarGo{
+    transform: translate(-264px,0px);
+    position: absolute;
+}
+.sidebar nav{
+    padding: 38px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /* background-color: peachpuff; */
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+    width:98vw;
+    height: 170vh;
+    color: grey;
+    padding-left: 23px;
+    
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color:rgb(243, 239, 239); */
+    height: 25vw;
+    width:72vw;
+    margin: 50px auto;
+    display: flex;
+    color:white;
+    position: absolute;
+    top:5px;
+    justify-content: space-around;
+    border-radius: 15px;
+    left: 450px;
+}
+.devinfo button{
+    height: 40px;
+    width:150px;
+    font-size: 20px;
+    background-color: gray;
+    border: 2px solid black;
+}
+.devinfo button:hover{
+    background-color: white;
+}
+.devpic img{
+
+    height: 25vw;
+    width:22vw;
+}
+.devinfo{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+  font-family: Arial Rounded MT Bold;
+    /* font-family: cursive; */
+    padding-left: 20px;
+/* text-align: left; */
+padding: 5px;
+margin-top: 200px;
+}
+.hello{
+font-size: 25px;
+}
+.name{
+font-size: 55px;
+
+}
+.About{
+font-size: 35px;
+}
+.mabout{
+    font-size: 20px;
+}
+/* .head{
+    color: rgb(8, 8, 89);
+    font-size: 50px;
+    font-family: cursive; */
+    /* font-family:   'Brush Script MT';
+    ;
+
+    padding-left: 50px;
+} */
+.find{
+    font-size: 30px;
+    color: white;
+    padding-left: 650px;
+    /* font-family: ui-monospace; */
+   
+
+    /* font-family:   'Brush Script MT'; */
+
+
+}
+.icon{
+    
+   align-items: center;
+   border-radius: 10px;
+}
+img{
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+img:hover{
+color-interpolation-filters: linearRGB;
+}
+.taskbar{
+    position: absolute;
+    top:680px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.ham{
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+
+    position: absolute;
+}
+.close{
+    margin-left: 84px;
+}
+.text{
+    color: white;
+   font-size: 30px;
+    text-align: center;
+    top:120px;
+   margin-left: 100px;
+    text-align: left;
+    margin-top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* .pic img{
+margin-left: 400px;
+
+} */
+.head{
+    /* margin-left: 150px;
+    text-align: left;
+    position: relative;
+    top:100px;
+    font-size: 60px;
+    text-decoration: underline rgb(20, 20, 36); */
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+  top: 50px;
+  position: relative;
+  left: 100px;
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    /* margin-left: 240px;
+    text-align: left;
+    /* position: relative;
+    top:120px; */
+    /* font-size: 50px;
+    text-decoration: underline rgb(20, 20, 36);
+    color: rgb(8, 8, 44);
+    font-family:   'Brush Script MT';
+    ; */ 
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+h1{
+    text-align: left;
+    margin-left: 50px;
+    /* position: relative; */
+    font-size: 60px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+.java{
+    width: 300px;
+    height: 10px;
+    background-color: rgb(97, 10, 10);
+    margin-left: 60px;
+   border: 3px solid black;
+
+}
+.c{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(97, 10, 10);
+    margin-left: 60px;
+    border: 3px solid black;
+
+
+}
+.html{
+    width: 250px;
+    height: 10px;
+    background-color: rgb(97, 10, 10);
+    margin-left: 80px;
+    border: 3px solid black;
+
+
+}
+.javas{
+    width: 150px;
+    height: 10px;
+    background-color: rgb(97, 10, 10);
+    margin-left: 95px;
+    border: 3px solid black;
+
+
+}
+.css{
+    width: 120px;
+    height: 10px;
+    background-color: rgb(97, 10, 10);
+    margin-left: 60px;
+    border: 3px solid black;
+
+
+}
+.skillcontainer{
+    color: white;
+    font-size: 20px;
+    margin-left: 430px;
+
+}
+h3{
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+.tool{
+    margin-left: 450px;
+    margin-right: 100px;
+    display: block;
+    justify-content: space-between;
+    
+}
+.as{
+    padding: 10px;
+    border: 5px solid black;
+    margin-right: 80px;
+    background-color: rgb(83, 14, 83);
+}
+.vs{
+    padding: 10px;
+    border: 5px solid black;
+    margin-right: 80px;
+    background-color: rgb(83, 14, 83);
+}
+.ecl{
+    padding: 10px;
+    border: 5px solid black;
+    margin-right: 80px;
+    background-color: rgb(83, 14, 83);
+}
+.py{
+    padding: 10px;
+    border: 5px solid black;
+    background-color: rgb(83, 14, 83);
+}
+.sub{
+    font-size: 35px;
+    /* font-family:   'Brush Script MT'; */
+ color:white ;
+ text-decoration: none;
+ background-color: rgb(83, 14, 83);
+}
+.p{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    justify-content:space-around;
+    align-items: center;
+    
+    background-color: rgb(54, 27, 54);
+}
+.p button{
+    height: 40px;
+    width:150px;
+    font-size: 20px;
+   text-decoration: none;
+   color: white;
+   background-color: grey;
+   border: 2px solid black;
+}
+.p button:hover{
+   background-color: aliceblue;
+   color: black;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 20px;
+}
+@media (max-width:800px){
+    .sidebar{
+        transform: translate(-264px,0px);
+        position: absolute;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .main{
+        height: 600vh;
+    }
+    .infocontainer{
+        flex-direction: column;
+        height: 80vw;
+        width:50vw;
+    }
+    .devpic img{
+
+        height: 40vw;
+        width:50vw;
+    }
+    .devinfo{
+        display: flex;
+        justify-content:  center;
+        flex-direction: column;
+      font-family: Arial Rounded MT Bold;
+        /* font-family: cursive; */
+        padding-left: 20px;
+    /* text-align: left; */
+    padding: 5px;
+    font-size: 10px;
+   
+    }
+    .more{
+        flex-direction: column;
+    }
+    .icon{
+        display: block;
+        
+    }
+    .skillcontainer{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+    /* grid-template-columns: repeat(2,1fr); */
+    /* flex-direction: column; */
+    }
+}
+.he{
+    font-size: 30px;
+    color: white;
+}
+.heeadd{
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+  top: 50px;
+  position: relative;
+  left: 10px;
+}
+h4{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.skilsss{
+    display: flex;
+    flex-direction: row;
+}
+.TimeLine{
+    display: block;
+    width: 100%;
+    margin: 100px auto;
+}
+.TimeLine .headding{
+    margin-left: 100px;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    /* font-family:   'Brush Script MT'; */
+}
+.card-title{
+    font-size: 25px;
+}
+.card-detail{
+    font-size: 15px;
+}
+.card-detail li{
+    font-size: 15px;
+}
+.card{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    color:white;
+    display: block;
+    margin: -60px 0;
+    position: relative;
+    background-color: white;
+}
+.card:nth-child(even){
+    margin-left: 800px;
+}
+.card:nth-child(even):before{
+    content: '';
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-radius: 50%;
+}
+.card:nth-child(even)::after{
+    content: '';
+    position: absolute;
+    left: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+   background: white;
+   z-index: -1;
+}
+.card:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    right: -13%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-radius: 50%;
+}
+.card:nth-child(odd)::after{
+    content: '';
+    position: absolute;
+    right: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+   background: white;
+   z-index: -1;
+}
+.card:nth-child(2),.card:nth-child(2):before{
+    background:red;
+}
+.card:nth-child(3),.card:nth-child(3):before{
+    background: red;
+}
+.card:nth-child(4),.card:nth-child(4):before{
+    background: red;
+}
+.card:nth-child(5),.card:nth-child(5):before{
+    background: red;
+}
+.card:nth-child(6),.card:nth-child(6):before{
+    background:red;
+}
+.skillcontainer{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+    color: white;
+}
+.skill-card{
+    position: relative;
+}
+.skill-img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+.skill-name{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+.skill-level{
+    position: absolute;
+    top:70px;
+    left: 150px;
+    right: 0;
+    width:150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 10px solid;
+}
+.skill-card:nth-child(1) .skill-level{
+    background-color: rgb(194, 35, 35);
+    border-color: rgb(91, 12, 12);
+    color: black;
+    font-weight: bold;
+}
+.skill-card:nth-child(2) .skill-level{
+    background-color: rgb(55, 55, 207);
+    border-color: rgb(4, 4, 56);
+    color: black;
+    font-weight: bold;
+}
+.skill-card:nth-child(1) .skill-level{
+    background-color: rgb(194, 35, 35);
+    border-color: rgb(91, 12, 12);
+    color: black;
+    font-weight: bold;
+}
+.skill-card:nth-child(3) .skill-level{
+    background-color: rgb(65, 149, 65);
+    border-color: rgb(4, 72, 4);
+    color: black;
+    font-weight: bold;
+}
+.skill-card:nth-child(4) .skill-level{
+    background-color: rgb(44, 44, 112);
+    border-color: rgb(6, 6, 109);
+    color: black;
+    font-weight: bold;
+}
+.skill-card:nth-child(5) .skill-level{
+    background-color: rgb(47, 156, 199);
+    border-color: rgb(8, 75, 102);
+    color: black;
+    font-weight: bold;
+}
+.skill-card:nth-child(6) .skill-level{
+    background-color: rgb(228, 228, 88);
+    border-color: rgb(134, 134, 7);
+    color: black;
+    font-weight: bold;
+}
+.navbar navbar-inverse{
+    padding: 20px;
+}
+.navbar navbar-default{
+    padding: 20px;
+    height: 300px;
+}
+.icon ul:hover .insta{
+    transform: scale(1.5);
+
+}
+.icon ul:hover .git{
+    transform: scale(1.5);
+
+}
+.icon ul:hover .link{
+    transform: scale(1.5);
+
+}
